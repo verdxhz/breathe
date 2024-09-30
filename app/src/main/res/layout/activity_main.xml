@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sfondo1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#71A374"
+    android:backgroundTint="@color/sfondo"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sessione"
+        android:layout_width="225dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#416C43"
+        android:text="inizia una nuova sessione"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saluto"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <Button
+        android:id="@+id/registro"
+        android:layout_width="225dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#416C43"
+        android:text="ultima attività"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sessione"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <TextView
+        android:id="@+id/saluto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benvenuto"
+        android:textColor="@color/dettagli"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
+</androidx.constraintlayout.widget.ConstraintLayout>

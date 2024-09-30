@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sfondo2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sfondo"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/media"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/dettagli"
+        android:text="media "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scelta" />
+
+    <Button
+        android:id="@+id/lenta"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/dettagli"
+        android:text="lenta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/media" />
+
+    <TextView
+        android:id="@+id/scelta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:text="scegli una velocità"
+        android:textColor="@color/dettagli"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/respirazione"
+        android:layout_width="345dp"
+        android:layout_height="101dp"
+        android:text="Tips: Inspirare lentamente dal naso cercando di far andare tutta l’aria verso il basso, come se stessimo gonfiando un palloncino dentro la pancia. Espirare lentamente, facendo fluire l’aria dalla bocca, svuotando il palloncino."
+        android:textAlignment="center"
+        android:textColor="@color/dettagli"
+        android:textIsSelectable="false"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lenta"
+        app:layout_constraintVertical_bias="0.453" />
+</androidx.constraintlayout.widget.ConstraintLayout>
